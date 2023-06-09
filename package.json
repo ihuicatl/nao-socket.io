@@ -1,0 +1,23 @@
+{
+  "name": "nao-socket.io",
+  "version": "1.0.0",
+  "description": "Socket.io to connect to Nao robot",
+  "main": "socket.io.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihuicatl/nao-socket.io.git"
+  },
+  "keywords": [
+    "nao",
+    "robot"
+  ],
+  "author": "Isabel Paredes",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ihuicatl/nao-socket.io/issues"
+  },
+  "homepage": "https://github.com/ihuicatl/nao-socket.io#readme"
+}
