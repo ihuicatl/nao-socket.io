@@ -1,16 +1,8 @@
 {
   "name": "nao-socket.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Socket.io to connect to Nao robot",
   "main": "socket.io.js",
-  "type": "module",
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./socket.io.js"
-      }
-    }
-  },
   "scripts": {
     "test": "node index.js && exit 1"
   },
