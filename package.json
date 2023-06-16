@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "Socket.io to connect to Nao robot",
   "main": "socket.io.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./socket.io.js"
+      }
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ihuicatl/nao-socket.io.git"
+    "url": "git+https://github.com/jupyter-robotics/nao-socket.io.git"
   },
   "keywords": [
     "nao",
@@ -17,7 +25,7 @@
   "author": "Isabel Paredes",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/ihuicatl/nao-socket.io/issues"
+    "url": "https://github.com/jupyter-robotics/nao-socket.io/issues"
   },
-  "homepage": "https://github.com/ihuicatl/nao-socket.io#readme"
+  "homepage": "https://github.com/jupyter-robotics/nao-socket.io#readme"
 }
