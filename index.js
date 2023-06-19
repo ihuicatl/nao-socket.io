@@ -1,3 +1,8 @@
-// import { io } from "./socket.io.js";
-// TODO: fix self var
-console.log("Socket.io import test fail. self not defined");
+
+/*!
+ * socket.io-node
+ * Copyright(c) 2011 LearnBoost <dev@learnboost.com>
+ * MIT Licensed
+ */
+
+module.exports = require('./lib/socket.io');
