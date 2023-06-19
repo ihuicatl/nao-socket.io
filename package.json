@@ -1,6 +1,6 @@
 {
   "name": "nao-socket.io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Socket.io to connect to Nao robot",
   "main": "index",
   "scripts": {
